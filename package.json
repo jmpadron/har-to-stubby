@@ -1,0 +1,21 @@
+{
+  "name": "har-to-stubby",
+  "version": "1.0.0",
+  "description": "CLI package to create a Stubby data .json file based on a HAR file",
+  "keywords": ["har", "stubby", "mock server"],
+  "bin": {
+    "har-to-stubby": "bin/har-to-stubby"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Jorge Martínez <jmpadron.developer@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.2"
+  }
+}

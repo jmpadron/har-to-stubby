@@ -1,0 +1,16 @@
+[
+  {
+    "request": {
+      "url": "^/cool-api/todo",
+      "method": "POST"
+    },
+    "response": {
+      "status": 200,
+      "latency": 500,
+      "headers": {
+        "content-type": "application/json"
+      },
+      "body": "{\"key\":8998}"
+    }
+  }
+]
