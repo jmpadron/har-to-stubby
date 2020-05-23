@@ -6,7 +6,7 @@ const stubbyWriter = (resultPath) => {
 
     const createMock = (entry, recordRequestParams) => {
         const url = new URL(entry.request.url);
-        const contentType = entry.response.headers.find(elem => elem.name.toUpperCase() === 'CONTENT-TYPE');
+        const contentType = entry.response.content.mimeType;
         const query = entry.request.queryString.map(elem => {
             const param = {};
             param[elem.name] = elem.value;
@@ -24,7 +24,7 @@ const stubbyWriter = (resultPath) => {
                 status: entry.response.status,
                 latency: 500,
                 headers: {
-                    'content-type': contentType.value
+                    'content-type': contentType
                 },
                 body: entry.response.content.text
             }

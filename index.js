@@ -9,7 +9,7 @@ if (argv['help']) {
         --destination               stubby data file output location(it will be overridden if exist)
     Optional arguments:
         --filter-urls-by-regexp     If present, only urls that match will be take into consideration (e.g. "/backend-api/g").
-        --track-request-params      If present, query params and post data will be included in the mock`;
+        --with-request-params      If present, query params and post data will be included in the mock`;
     console.info(helpMessage);
     return;
 }

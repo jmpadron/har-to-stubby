@@ -2,10 +2,14 @@
   "name": "har-to-stubby",
   "version": "1.0.0",
   "description": "CLI package to create a Stubby data .json file based on a HAR file",
-  "keywords": ["har", "stubby", "mock server"],
+  "keywords": [
+    "har",
+    "stubby",
+    "mock server"
+  ],
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/jmpadron/har-to-stubby.git"
+    "type": "git",
+    "url": "https://github.com/jmpadron/har-to-stubby.git"
   },
   "bin": {
     "har-to-stubby": "bin/har-to-stubby"

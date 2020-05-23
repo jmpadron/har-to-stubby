@@ -20,10 +20,10 @@ This package allows you to convert the HTTP browser's interactions into mock dat
 
 Optional arguments:
     --filter-urls-by-regexp     If present, only urls that match will be take into consideration
-    --track-request-params      If present, query params and post data will be included in the mock
+    --with-request-params       If present, query params and post data will be included in the mock
 ```
 
 ## Example
 ```
-har-to-stubby --source "./test-data/localhost.har" --destination "./test-data/localhost.json" --filter-urls-by-regexp "/cool-api/g" --track-request-params
+har-to-stubby --source "./test-data/localhost.har" --destination "./test-data/localhost.json" --filter-urls-by-regexp "/cool-api/g" --with-request-params
 ```
