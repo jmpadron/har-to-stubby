@@ -1,6 +1,6 @@
 {
   "name": "har-to-stubby",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI package to create a Stubby data .json file based on a HAR file",
   "keywords": [
     "har",
